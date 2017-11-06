@@ -1,0 +1,9 @@
+<ul>
+  <li *ngFor="let item of list" class="new-item">
+    <td-todo-item
+    [value]=[item.value]
+    id={{item.id}}
+    (emitted)="onChange($event)"
+    ></td-todo-item>
+  </li>
+</ul>

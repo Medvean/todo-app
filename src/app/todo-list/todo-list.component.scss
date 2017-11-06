@@ -1,0 +1,15 @@
+.new-item {
+  background: #fff url('./../../assets/images/new-sign.png') no-repeat center left 10px;
+}
+
+.done-item {
+  background: transperent url('./../../assets/images/done-sign.png') no-repeat center left 10px;
+  box-shadow: none;
+  border: none;
+
+
+}
+
+.done-item input {
+  text-decoration-line: line-through;
+    }
