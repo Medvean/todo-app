@@ -6,7 +6,7 @@ import { AsyncLocalStorage } from 'angular-async-local-storage';
 export class DataService {
 
   constructor(protected localStorage: AsyncLocalStorage) { }
-  // private data: Item[];
+
   private data: Item[] = [
     { id: '001', value: 'Do business one' },
     { id: '233', value: 'Do business two' },

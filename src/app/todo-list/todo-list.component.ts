@@ -25,7 +25,6 @@ export class TodoListComponent implements OnInit {
     for (const x of this.list) {
       if (x.id === this.idx) {
         x.value = this.myValue;
-        console.log(x.value);
       }
     }
 
